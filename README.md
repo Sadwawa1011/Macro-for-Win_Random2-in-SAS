@@ -9,7 +9,12 @@
 ```sas  
 %Win_Random2(winname = test1, outdata1 = test2);  
 %Win_Random2(winname = test1, outdata1 = test2,outdata2 = randform);  
-```  
+```
+
+# 调用的SAS窗口
+  `根据以上宏程序使用语法即可调出下图SAS窗口。`
+<img width="1055" height="897" alt="调用窗口图片" src="https://github.com/user-attachments/assets/69cd9904-4430-4691-853a-f2b00d23c7f3" />
+
 # 参数使用语法
 ## indata
   弹出的窗口名称  
@@ -19,7 +24,4 @@
   输出随机数表的数据集名称。
   
 ## outdata2
-  保留输入的窗口信息数据集名称。  
-  
-# 调用的SAS窗口
-<img width="1055" height="897" alt="调用窗口图片" src="https://github.com/user-attachments/assets/69cd9904-4430-4691-853a-f2b00d23c7f3" />
+  保留输入的窗口信息数据集名称。
