@@ -1,5 +1,5 @@
 # Macro-for-Win_Random2-in-SAS
-  `本宏程序主要基于SAS软件，进行分层区组随机化结果。`
+  `本宏程序主要基于SAS软件（GBK环境），进行分层区组随机化结果。`
 # 必填参数目录Content
 - [winname](#winname)
 - [outdata1](#outdata1)  
@@ -16,7 +16,7 @@
 <img width="1055" height="897" alt="调用窗口图片" src="https://github.com/user-attachments/assets/69cd9904-4430-4691-853a-f2b00d23c7f3" />
 
 # 参数使用语法
-## indata
+## winname
   弹出的窗口名称  
   可任取英文名称，仅为调用赋值。  
   
